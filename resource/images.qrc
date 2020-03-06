@@ -1,0 +1,13 @@
+<RCC>
+  <qresource prefix="register">
+    <file>图片资源/register_background.jpg</file>
+  </qresource>
+  <qresource prefix="login">
+    <file>图片资源/login_top_lab.gif</file>
+    <file>图片资源/login_top_label.gif</file>
+    <file>图片资源/WeChat.png</file>
+    <file>图片资源/login_btn.png</file>
+    <file>图片资源/login_combtn.png</file>
+    <file>图片资源/Rice.png</file>
+  </qresource>
+</RCC>

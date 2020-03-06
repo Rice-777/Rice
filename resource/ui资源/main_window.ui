@@ -1,0 +1,927 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1097</width>
+    <height>668</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout" stretch="1,9">
+   <property name="spacing">
+    <number>0</number>
+   </property>
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <item>
+    <widget class="QWidget" name="widget" native="true">
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout" stretch="9,1">
+      <property name="spacing">
+       <number>0</number>
+      </property>
+      <property name="leftMargin">
+       <number>0</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="rightMargin">
+       <number>0</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <item>
+       <widget class="QFrame" name="top_frame">
+        <property name="styleSheet">
+         <string notr="true">border-radius: 7px;
+font: 75 13pt &quot;微软雅黑&quot;;</string>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+        <widget class="QPushButton" name="pushButton_4">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>10</y>
+           <width>101</width>
+           <height>41</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 75 15pt &quot;微软雅黑&quot;;</string>
+         </property>
+         <property name="text">
+          <string>现   金</string>
+         </property>
+         <property name="flat">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="pushButton_5">
+         <property name="geometry">
+          <rect>
+           <x>110</x>
+           <y>10</y>
+           <width>101</width>
+           <height>41</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 75 15pt &quot;微软雅黑&quot;;</string>
+         </property>
+         <property name="text">
+          <string>存   款</string>
+         </property>
+         <property name="flat">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="pushButton_6">
+         <property name="geometry">
+          <rect>
+           <x>220</x>
+           <y>10</y>
+           <width>101</width>
+           <height>41</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 75 15pt &quot;微软雅黑&quot;;</string>
+         </property>
+         <property name="text">
+          <string>投   资</string>
+         </property>
+         <property name="flat">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="pushButton_7">
+         <property name="geometry">
+          <rect>
+           <x>330</x>
+           <y>10</y>
+           <width>101</width>
+           <height>41</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 75 15pt &quot;微软雅黑&quot;;</string>
+         </property>
+         <property name="text">
+          <string>借   贷</string>
+         </property>
+         <property name="flat">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="pushButton_8">
+         <property name="geometry">
+          <rect>
+           <x>440</x>
+           <y>10</y>
+           <width>101</width>
+           <height>41</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 75 15pt &quot;微软雅黑&quot;;</string>
+         </property>
+         <property name="text">
+          <string>综合分析</string>
+         </property>
+         <property name="flat">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="pushButton_11">
+         <property name="geometry">
+          <rect>
+           <x>550</x>
+           <y>10</y>
+           <width>101</width>
+           <height>41</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 75 15pt &quot;微软雅黑&quot;;</string>
+         </property>
+         <property name="text">
+          <string>重要事件</string>
+         </property>
+         <property name="flat">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="pushButton_10">
+         <property name="geometry">
+          <rect>
+           <x>660</x>
+           <y>10</y>
+           <width>101</width>
+           <height>41</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 75 15pt &quot;微软雅黑&quot;;</string>
+         </property>
+         <property name="text">
+          <string>股市资讯</string>
+         </property>
+         <property name="flat">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </widget>
+      </item>
+      <item>
+       <widget class="QFrame" name="frame_2">
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+        <widget class="QLabel" name="time_lab">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>46</y>
+           <width>91</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QWidget" name="widget_2" native="true">
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_2" stretch="8,2">
+      <property name="spacing">
+       <number>0</number>
+      </property>
+      <property name="leftMargin">
+       <number>0</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="rightMargin">
+       <number>0</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <item>
+       <widget class="QFrame" name="frame_3">
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_2" stretch="2,7">
+         <property name="spacing">
+          <number>0</number>
+         </property>
+         <property name="leftMargin">
+          <number>0</number>
+         </property>
+         <property name="topMargin">
+          <number>0</number>
+         </property>
+         <property name="rightMargin">
+          <number>0</number>
+         </property>
+         <property name="bottomMargin">
+          <number>0</number>
+         </property>
+         <item>
+          <widget class="QLabel" name="top_welcome_lab">
+           <property name="styleSheet">
+            <string notr="true">font: 75 18pt &quot;微软雅黑&quot;;</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QFrame" name="main_fram">
+           <property name="styleSheet">
+            <string notr="true"/>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::StyledPanel</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+           <layout class="QVBoxLayout" name="verticalLayout_4">
+            <item>
+             <widget class="QFrame" name="opeartor_fram">
+              <property name="styleSheet">
+               <string notr="true"/>
+              </property>
+              <property name="frameShape">
+               <enum>QFrame::StyledPanel</enum>
+              </property>
+              <property name="frameShadow">
+               <enum>QFrame::Raised</enum>
+              </property>
+              <layout class="QHBoxLayout" name="horizontalLayout_3">
+               <item>
+                <widget class="QPushButton" name="pushButton">
+                 <property name="styleSheet">
+                  <string notr="true">border-radius: 7px;
+font: 75 13pt &quot;微软雅黑&quot;;</string>
+                 </property>
+                 <property name="text">
+                  <string>添加</string>
+                 </property>
+                 <property name="flat">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="pushButton_2">
+                 <property name="styleSheet">
+                  <string notr="true">border-radius: 7px;
+font: 75 13pt &quot;微软雅黑&quot;;</string>
+                 </property>
+                 <property name="text">
+                  <string>修改</string>
+                 </property>
+                 <property name="flat">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="pushButton_3">
+                 <property name="styleSheet">
+                  <string notr="true">border-radius: 7px;
+font: 75 13pt &quot;微软雅黑&quot;;</string>
+                 </property>
+                 <property name="text">
+                  <string>删除</string>
+                 </property>
+                 <property name="flat">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="relash_btn">
+                 <property name="styleSheet">
+                  <string notr="true">border-radius: 7px;
+font: 75 13pt &quot;微软雅黑&quot;;</string>
+                 </property>
+                 <property name="text">
+                  <string>刷新</string>
+                 </property>
+                 <property name="flat">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="cash1_lab">
+              <property name="styleSheet">
+               <string notr="true">font: 75 13pt &quot;微软雅黑&quot;;</string>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="cash2_lab">
+              <property name="styleSheet">
+               <string notr="true">font: 75 13pt &quot;微软雅黑&quot;;</string>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="cash3_lab">
+              <property name="styleSheet">
+               <string notr="true">font: 75 13pt &quot;微软雅黑&quot;;</string>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="cash4_lab">
+              <property name="styleSheet">
+               <string notr="true">font: 75 13pt &quot;微软雅黑&quot;;</string>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="cash5_lab">
+              <property name="styleSheet">
+               <string notr="true">font: 75 13pt &quot;微软雅黑&quot;;</string>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="cash6_lab">
+              <property name="styleSheet">
+               <string notr="true">font: 75 13pt &quot;微软雅黑&quot;;</string>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="cash7_lab">
+              <property name="styleSheet">
+               <string notr="true">font: 75 13pt &quot;微软雅黑&quot;;</string>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QFrame" name="frame_4">
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_3" stretch="7,3">
+         <property name="spacing">
+          <number>0</number>
+         </property>
+         <property name="leftMargin">
+          <number>0</number>
+         </property>
+         <property name="topMargin">
+          <number>0</number>
+         </property>
+         <property name="rightMargin">
+          <number>0</number>
+         </property>
+         <property name="bottomMargin">
+          <number>0</number>
+         </property>
+         <item>
+          <widget class="QFrame" name="frame_6">
+           <property name="minimumSize">
+            <size>
+             <width>100</width>
+             <height>37</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true"/>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::StyledPanel</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+           <layout class="QFormLayout" name="formLayout">
+            <property name="horizontalSpacing">
+             <number>7</number>
+            </property>
+            <property name="verticalSpacing">
+             <number>33</number>
+            </property>
+            <property name="leftMargin">
+             <number>37</number>
+            </property>
+            <property name="topMargin">
+             <number>33</number>
+            </property>
+            <property name="rightMargin">
+             <number>7</number>
+            </property>
+            <property name="bottomMargin">
+             <number>7</number>
+            </property>
+            <item row="1" column="0">
+             <widget class="QComboBox" name="guihua_cb">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="minimumSize">
+               <size>
+                <width>137</width>
+                <height>37</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>137</width>
+                <height>37</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">font: 75 13pt &quot;微软雅黑&quot;;</string>
+              </property>
+              <item>
+               <property name="text">
+                <string>理 财 规 划</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>理财规划案例</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>理财规划交流</string>
+               </property>
+              </item>
+             </widget>
+            </item>
+            <item row="2" column="0">
+             <widget class="QComboBox" name="canpin_cb">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="minimumSize">
+               <size>
+                <width>137</width>
+                <height>37</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>137</width>
+                <height>37</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">font: 75 13pt &quot;微软雅黑&quot;;</string>
+              </property>
+              <item>
+               <property name="text">
+                <string>理 财 产 品</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>银行本币理财</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>银行外币理财</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>人寿保险</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>财产保险</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>基金公司查询</string>
+               </property>
+              </item>
+             </widget>
+            </item>
+            <item row="3" column="0">
+             <widget class="QComboBox" name="tools_cb">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="minimumSize">
+               <size>
+                <width>137</width>
+                <height>37</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>137</width>
+                <height>37</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">font: 75 13pt &quot;微软雅黑&quot;;</string>
+              </property>
+              <item>
+               <property name="text">
+                <string>理 财 工 具</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>理财计算器</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>生活工具</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>理财网站导航</string>
+               </property>
+              </item>
+             </widget>
+            </item>
+            <item row="4" column="0">
+             <widget class="QComboBox" name="remind_cb">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="minimumSize">
+               <size>
+                <width>137</width>
+                <height>37</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>137</width>
+                <height>37</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">font: 75 13pt &quot;微软雅黑&quot;;</string>
+              </property>
+              <item>
+               <property name="text">
+                <string>日 程 提 醒</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>重要事件       </string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>重点资讯</string>
+               </property>
+              </item>
+             </widget>
+            </item>
+            <item row="0" column="0">
+             <widget class="QComboBox" name="my_account_cb">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="minimumSize">
+               <size>
+                <width>137</width>
+                <height>37</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>137</width>
+                <height>37</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">font: 75 13pt &quot;微软雅黑&quot;;</string>
+              </property>
+              <item>
+               <property name="text">
+                <string>我 的 账 户</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>现金</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>存款</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>投资</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>借贷</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>综合分析        </string>
+               </property>
+              </item>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
+          <widget class="QFrame" name="frame">
+           <property name="styleSheet">
+            <string notr="true"/>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::StyledPanel</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+           <widget class="QLabel" name="welcome_lab">
+            <property name="geometry">
+             <rect>
+              <x>63</x>
+              <y>29</y>
+              <width>111</width>
+              <height>31</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">font: 75 18pt &quot;微软雅黑&quot;;</string>
+            </property>
+            <property name="text">
+             <string>欢迎您 :</string>
+            </property>
+           </widget>
+           <widget class="QLabel" name="Person_info_lab">
+            <property name="geometry">
+             <rect>
+              <x>30</x>
+              <y>90</y>
+              <width>171</width>
+              <height>41</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">font: 75 18pt &quot;微软雅黑&quot;;</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>pushButton_4</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>cash_btn()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>57</x>
+     <y>39</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>33</x>
+     <y>-68</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_5</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>cunkuan_btn()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>180</x>
+     <y>40</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>215</x>
+     <y>-71</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_6</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>touzi_btn()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>276</x>
+     <y>33</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>277</x>
+     <y>-84</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_7</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>loan_btn()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>393</x>
+     <y>30</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>394</x>
+     <y>-55</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_8</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>zonghe_btn()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>493</x>
+     <y>25</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>492</x>
+     <y>-55</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_11</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>import_btn()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>575</x>
+     <y>36</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>566</x>
+     <y>-59</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_10</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>zixun_btn()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>697</x>
+     <y>24</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>677</x>
+     <y>-70</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>mini_btn()</slot>
+  <slot>max_btn()</slot>
+  <slot>close_btn()</slot>
+  <slot>cash_btn()</slot>
+  <slot>cunkuan_btn()</slot>
+  <slot>touzi_btn()</slot>
+  <slot>loan_btn()</slot>
+  <slot>import_btn()</slot>
+  <slot>zixun_btn()</slot>
+  <slot>zonghe_btn()</slot>
+ </slots>
+</ui>

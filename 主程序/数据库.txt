@@ -1,0 +1,69 @@
+create table Person(
+id int identity(1,1) primary key,
+account nvarchar(77),
+password nvarchar(77)
+);
+
+create table Cash(
+id int identity(1,1) primary key,
+zhaiyao nvarchar(77),
+riqi nvarchar(77),
+shouru_val nvarchar(77),
+zhichu_val nvarchar(77),
+beizhu nvarchar(77)
+);
+
+create table Important(
+id int identity(1,1) primary key,
+event_riqi nvarchar(77),
+event nvarchar(77),
+remind_riqi nvarchar(77)
+);
+
+create table Cunkuan(
+id int identity(1,1) primary key,
+zhaiyao nvarchar(77),
+yinghnag_name nvarchar(77),
+riqi nvarchar(77),
+cunkuan_val nvarchar(77),
+lixi_val nvarchar(77),
+qukuan_val nvarchar(77),
+shouxu_val nvarchar(77),
+beizhu nvarchar(77)
+);
+
+
+create table Touzi(
+id int identity(1,1) primary key,
+zhaiyao nvarchar(77),
+riqi nvarchar(77),
+touzi_val nvarchar(77),
+shouyi_val nvarchar(77),
+shunshi_val nvarchar(77),
+beizhu nvarchar(77)
+);
+
+create table Jiedai(
+id int identity(1,1) primary key,
+zhaiyao nvarchar(77),
+riqi nvarchar(77),
+jieru_val nvarchar(77),
+jiechu_val nvarchar(77),
+beizhu nvarchar(77)
+);
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+insert into Cash values('兼职收入','2020-02-27','177','50','家教收入 : 177
+买烟支出 : 20
+吃饭支出 : 30');
+
+insert into Cunkuan values('工资收入','邮政银行','2020-02-27','7777','300','0','0','工资一共 : 7777
+全部存起来.');
+
+insert into Touzi values('普通投资','2020-02-27','5000','50','0','投资有风险
+个人需谨慎');
+
+insert into Jiedai values('朋友救急','2020-02-27','0','3000','祝朋友好运');
+
+insert into Important values('2020-02-27','28号记得去喊朋友还钱','2020-02-27');

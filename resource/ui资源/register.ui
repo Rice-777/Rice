@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="windowModality">
+   <enum>Qt::NonModal</enum>
+  </property>
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>577</width>
+    <height>377</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>577</width>
+    <height>377</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>577</width>
+    <height>377</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="windowOpacity">
+   <double>0.900000000000000</double>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget#Form{
+	border-image: url(:/register/图片资源/register_background.jpg);
+}</string>
+  </property>
+  <widget class="QPushButton" name="main_menu_btn">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>10</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+	border-radius:25px;
+	background-color:rgb(202, 43, 255);
+	color:rgb(255, 170, 0);
+	border:3px solid rgb(255, 102, 197);
+}
+QPushButton:hover{
+	border:5px double rgb(251, 121, 255);
+}
+QPushButton:checked{
+	background-color:rgb(208, 0, 208);
+}</string>
+   </property>
+   <property name="text">
+    <string>菜单</string>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="about_btn">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>10</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+	border-radius:25px;
+	background-color:rgb(202, 43, 255);
+	color:rgb(255, 170, 0);
+	border:3px solid rgb(255, 102, 197);
+}
+QPushButton:hover{
+	border:5px double rgb(251, 121, 255);
+}
+QPushButton:checked{
+	background-color:rgb(255, 29, 187);
+}</string>
+   </property>
+   <property name="text">
+    <string>关于</string>
+   </property>
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="reset_btn">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>70</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+	border-radius:25px;
+	background-color:rgb(202, 43, 255);
+	color:rgb(255, 170, 0);
+	border:3px solid rgb(255, 102, 197);
+}
+QPushButton:hover{
+	border:5px double rgb(251, 121, 255);
+}
+QPushButton:checked{
+	background-color:rgb(255, 29, 187);
+}</string>
+   </property>
+   <property name="text">
+    <string>重置</string>
+   </property>
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="exit_btn">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>100</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+	border-radius:25px;
+	background-color:rgb(202, 43, 255);
+	color:rgb(255, 170, 0);
+	border:3px solid rgb(255, 102, 197);
+}
+QPushButton:hover{
+	border:5px double rgb(251, 121, 255);
+}
+QPushButton:checked{
+	background-color:rgb(255, 29, 187);
+}</string>
+   </property>
+   <property name="text">
+    <string>退出</string>
+   </property>
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>157</x>
+     <y>100</y>
+     <width>301</width>
+     <height>264</height>
+    </rect>
+   </property>
+   <layout class="QFormLayout" name="formLayout">
+    <property name="verticalSpacing">
+     <number>17</number>
+    </property>
+    <item row="0" column="0">
+     <widget class="QLabel" name="label">
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>35</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color:rgb(60, 193, 195);
+font: 75 18pt &quot;微软雅黑&quot;;</string>
+      </property>
+      <property name="text">
+       <string>账       号:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="label_2">
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>35</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color:rgb(60, 193, 195);
+font: 75 18pt &quot;微软雅黑&quot;;</string>
+      </property>
+      <property name="text">
+       <string>密       码:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QLineEdit" name="password_le">
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>37</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: transparent;
+color: rgb(43, 53, 255);
+border:none;
+border-bottom:3px solid cyan;
+font: 75 11pt &quot;Comic Sans MS&quot;;</string>
+      </property>
+      <property name="echoMode">
+       <enum>QLineEdit::Password</enum>
+      </property>
+      <property name="clearButtonEnabled">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="label_3">
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>35</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color:rgb(60, 193, 195);
+font: 75 18pt &quot;微软雅黑&quot;;</string>
+      </property>
+      <property name="text">
+       <string>确认密码:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QLineEdit" name="repassword_le">
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>37</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: transparent;
+color: rgb(43, 53, 255);
+border:none;
+border-bottom:3px solid cyan;
+font: 75 11pt &quot;Comic Sans MS&quot;;</string>
+      </property>
+      <property name="echoMode">
+       <enum>QLineEdit::Password</enum>
+      </property>
+      <property name="clearButtonEnabled">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QLineEdit" name="account_le">
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>37</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: transparent;
+color: rgb(43, 53, 255);
+border:none;
+border-bottom:3px solid cyan;
+font: 75 11pt &quot;Comic Sans MS&quot;;</string>
+      </property>
+      <property name="clearButtonEnabled">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="1">
+     <widget class="QPushButton" name="register_btn">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>177</width>
+        <height>43</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>177</width>
+        <height>16777215</height>
+       </size>
+      </property>
+      <property name="layoutDirection">
+       <enum>Qt::LeftToRight</enum>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	background-color: rgb(144, 255, 252);
+	color: rgb(255, 97, 24);
+	border-radius:7px;
+	border:1px solid rgb(255, 102, 197);
+}
+QPushButton:disabled{
+	background-color: rgb(168, 150, 149);
+}
+QPushButton:hover{
+	background-color: rgb(87, 233, 255);
+}
+QPushButton:pressed{
+	background-color: rgb(112, 122, 255);
+}</string>
+      </property>
+      <property name="text">
+       <string>注册</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <zorder>about_btn</zorder>
+  <zorder>reset_btn</zorder>
+  <zorder>exit_btn</zorder>
+  <zorder>layoutWidget</zorder>
+  <zorder>main_menu_btn</zorder>
+ </widget>
+ <tabstops>
+  <tabstop>account_le</tabstop>
+  <tabstop>password_le</tabstop>
+  <tabstop>repassword_le</tabstop>
+  <tabstop>register_btn</tabstop>
+  <tabstop>main_menu_btn</tabstop>
+  <tabstop>exit_btn</tabstop>
+  <tabstop>reset_btn</tabstop>
+  <tabstop>about_btn</tabstop>
+ </tabstops>
+ <resources>
+  <include location="../images.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>main_menu_btn</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>Form</receiver>
+   <slot>show_hide_menu()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>40</x>
+     <y>39</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>0</x>
+     <y>106</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>exit_btn</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>exit_pane()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>42</x>
+     <y>136</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>0</x>
+     <y>181</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>about_btn</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>about_author()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>139</x>
+     <y>33</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>201</x>
+     <y>0</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>reset_btn</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>reset()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>109</x>
+     <y>103</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>253</x>
+     <y>0</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>register_btn</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>check_register()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>369</x>
+     <y>296</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>421</x>
+     <y>376</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>account_le</sender>
+   <signal>textChanged(QString)</signal>
+   <receiver>Form</receiver>
+   <slot>enable_register()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>387</x>
+     <y>126</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>507</x>
+     <y>122</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>password_le</sender>
+   <signal>textChanged(QString)</signal>
+   <receiver>Form</receiver>
+   <slot>enable_register()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>437</x>
+     <y>178</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>508</x>
+     <y>175</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>repassword_le</sender>
+   <signal>textChanged(QString)</signal>
+   <receiver>Form</receiver>
+   <slot>enable_register()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>409</x>
+     <y>221</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>513</x>
+     <y>228</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>show_hide_menu()</slot>
+  <slot>about_author()</slot>
+  <slot>exit_pane()</slot>
+  <slot>reset()</slot>
+  <slot>check_register()</slot>
+  <slot>enable_register()</slot>
+ </slots>
+</ui>
